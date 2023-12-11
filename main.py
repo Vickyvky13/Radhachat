@@ -7,10 +7,10 @@ import os
 import re
 
 
-API_ID = os.environ.get("API_ID", None) 
-API_HASH = os.environ.get("API_HASH", None) 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", None) 
-MONGO_URL = os.environ.get("MONGO_URL", None)
+API_ID = os.environ.get("API_ID", "13569561") 
+API_HASH = os.environ.get("API_HASH", "a689fce8b9f1c32c899b53811451385f") 
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6879900646:AAFBHrMAgZ-iog7U6MsmYGEruaA_B_rOqo8") 
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://karthickv9095:15406578@cluster0.lolwin4.mongodb.net/?retryWrites=true&w=majority")
 
 
 bot = Client(
@@ -33,7 +33,7 @@ async def is_admins(chat_id: int):
 
 @bot.on_message(filters.command("start"))
 async def start(client, message):
-        await message.reply_text("Hi! My name is [LOGIC-AI](https://t.me/logicxupdates). I'm an Artificial Intelligence")
+        await message.reply_text("Hi! My name is [ʀᴀᴅʜᴀ](https://t.me/solotreee). I'm an Artificial Intelligence")
 
 
 @bot.on_message(
