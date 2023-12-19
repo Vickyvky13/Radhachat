@@ -33,7 +33,7 @@ async def is_admins(chat_id: int):
 
 @bot.on_message(filters.command("start"))
 async def start(client, message):
-        await message.reply_text("Hi! My name is [ʀᴀᴅʜᴀ](https://t.me/solotreee). I'm an Artificial Intelligence")
+        await message.reply_text("Hi! My name is [ʀᴀᴅʜᴀ](https://t.me/solotreee). I'm an Artificial Intelligence\n\nif you want add your group ask @Solotreeeee")
 
 
 @bot.on_message(
